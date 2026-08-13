@@ -89,7 +89,6 @@ body{
     padding: 5px;
     padding-right: 16px;
     transition: 1s;
-    border-radius: 10px;
 }
 .header li{
     display: flex;
@@ -162,8 +161,8 @@ body{
 }
 
 .foto-inicial h1:hover{
-     width: 940px;
-     transition: 1s;
+    width: 940px;
+    transition: 1s;
 }
 
 .foto-inicial h1{
@@ -173,7 +172,7 @@ body{
     justify-content: center;
     width: 700px;
     transition: 1s;
-    padding-right: 100px;
+    padding-left: 100px;
     height: 100%;
     line-height: 1.4;
     letter-spacing: 2px;
@@ -213,7 +212,6 @@ body{
     width: 250px;
     height: 50px;
     margin-top: 40px;
-    border-radius: 10px;
     background-color: var(--amarelo);
     border: none;
     font-size: .4em;
@@ -935,6 +933,7 @@ body{
     line-height: 50px;
     width: 700px;
     font-family: var(--light);
+    transform: 1s;
 }
 
 .inform input{
@@ -999,4 +998,15 @@ body{
     font-size: 3.1em;
     transition: .5s;
 
+}
+
+.inform a{
+    text-decoration: none;
+    color: var(--claro);
+
+}
+
+.inform p:hover{
+    font-size: 1.6em;
+    transition: 1s;
 }
